@@ -5,6 +5,9 @@ const app = Vue.createApp({
             description: "This describes the goddamned socks",
             image: "./assets/images/socks_green.jpg",
             url: "https://imgur.com/gallery/6fksvmE",
+            inStock: false,
+            onSale: true,
+            inventory: 0,
         };
     },
 });
